@@ -3,6 +3,8 @@
 #include <vector>
 #include <utility>
 
+// declaring the consts
+
 const int WIDTH = 1920;
 const int HEIGHT = 1080;
 
