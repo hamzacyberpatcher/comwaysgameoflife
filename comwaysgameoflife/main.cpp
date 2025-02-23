@@ -135,7 +135,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Comway's Game of Life", sf::Style::Fullscreen);
 
 
-std::vector<std::vector<bool>> grid(NUM_CELLS_X, std::vector<bool>(NUM_CELLS_Y));
+	std::vector<std::vector<bool>> grid(NUM_CELLS_X, std::vector<bool>(NUM_CELLS_Y));
 	std::vector<std::pair<int, int>> toBorn;
 	std::vector<std::pair<int, int>> toDie;
 
